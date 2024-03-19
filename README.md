@@ -1,4 +1,4 @@
-## Linux For SPD
+## Linux From Scratch PD 
 
 This is the base system for SPD software docker container.
 
@@ -6,7 +6,7 @@ The main features of the distro:
 - minimalistic linux distribuition (no X11, no GUIs, no mans, no locales etc.).
     
   supposed that all applications will run in docker container in batch mode
-- all packages built from sources, including system ones
+- all packages built from sources
 - minimized by size (compiled with size optimization flags + stripped & cleaned) 
 - set of packages for scientific programming <b>[Readme/packages.md](Readme/packages.md)</b>
 - the latest versions of all the packages : glibc, gcc, perl, cmake, python etc.
