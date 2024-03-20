@@ -11,7 +11,7 @@ export CFLAGS="-Wno-error -Os"
 export LFS=""
 cd /sources
 
-for p in zlib bzip2 bison perl util-linux openssl python texinfo gettext
+for p in zlib bzip2 bison perl util-linux libffi openssl python texinfo gettext
 do
     source packageinstall.sh 7 ${p}
 done
