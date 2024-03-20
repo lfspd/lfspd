@@ -2,7 +2,7 @@
 
 [ ! -e /etc/bash.bashrc ] || sudo mv -v /etc/bash.bashrc /etc/bash.bashrc.NOUSE
 
-exist=$(getent passwd | cut -f1 -d: | grep lfs)
+exist=$(getent passwd | cut -f1 -d: | grep -w "lfs")
 
 if [ -z "$exist" ]; then
 	sudo groupadd lfs

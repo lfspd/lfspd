@@ -1,13 +1,15 @@
 ##  How to run precompiled LFSPD distro on a local computer   
 
+### Zero step 
+
+Download [lfspd.10.tar.gz](https://ln5.sync.com/dl/4f64919e0/mqi5sz3e-ipaqzf5t-xwim9pte-xdq87wkt) to [Distros](Distros) directory
+
+
 ### For Linux users
 
 
 The method is based on [chroot jail](https://en.wikipedia.org/wiki/Chroot)
 
-After building <code>Linux For SPD</code> described in [BuildFromScratch.md](BuildFromScratch.md)
-
-directory [Distros](Distros) contains tarball <code>lfspd.10.tar.gz</code> with distro image.
 
 - one needs to have sudo privelege 
 
@@ -21,17 +23,17 @@ directory [Distros](Distros) contains tarball <code>lfspd.10.tar.gz</code> with 
 
   or <code>[./run_distro.sh](run_distro.sh) <b>'your prefered location'</b> </code>
 
-  ... then <code>chroot</code> is automatically called and <code>Linux For SPD</code> system is activated
+  ... then <code>chroot</code> is automatically called and <code>LFSPD</code> system is activated
 
-You can call <code>[run_distro.sh](run_distro.sh)</code> on different terminals to have several <code>Linux For SPD</code> sessions 
+You can call <code>[run_distro.sh](run_distro.sh)</code> on different terminals to have several <code>LFSPD</code> sessions 
 
-You can edit your C++, python projects in <code>Linux For SPD</code> located in <b>$HOME/tmp/lfspd</b> from the "host system"
+You can edit your C++, python projects in <code>LFSPD</code> located in <b>$HOME/tmp/lfspd</b> from the "host system"
 
 ### For Windows users. Run in PowerShell
 
 - Activate [Windows Subsystem for Linux (WSL2)](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux)  <code>PS>[WSL_Install.ps1](WSL_Install.ps1)</code>
 
-- Import <i>Linux For SPD</i> distribution <code>PS>wsl --import lfspd 'InstallLocation' 'path to lfspd.10.tar.gz'</code>
+- Import <i>LFSPD</i> distribution <code>PS>wsl --import lfspd 'InstallLocation' 'path to lfspd.10.tar.gz'</code>
 
 In my case:
 
@@ -54,10 +56,10 @@ Ubuntu
 </code>
 </p>
 
-- Run <b>lfspd</b> <i>Linux For SPD</i> distribution 
+- Run <b>lfspd</b> <i>LFSPD</i> distribution 
 
 <code>PS>wsl -d lfspd </code>
 
-<b>The great advantage</b> of this approach that all Windows programs, disks (<code>/mnt/c, /mnt/d ...</code>) are availabe from inside <i>Linux For SPD</i>
+<b>The great advantage</b> of this approach that all Windows programs, disks (<code>/mnt/c, /mnt/d ...</code>) are availabe from inside <i>LFSPD</i>
 
 For example, being inside LFSPD system you can edit C++ projects with <code>VS Code editor</code> or Python projects with <code>PyCharm IDE</code> 

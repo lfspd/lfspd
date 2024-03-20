@@ -1,4 +1,4 @@
-### Building "Linux For SPD" from scratch under Ubuntus (18.04 - 22.04) and Debian
+### Building from scratch under Ubuntus (18.04 - 22.04) and Debian
 
 This procedure describes how to build distro by compiling all packages from source  
 This is done quite rarely, about once a year (each time check/correct <code><b>wget-list, md5sums</b></code> files for downloads)
