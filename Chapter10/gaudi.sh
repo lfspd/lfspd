@@ -22,17 +22,12 @@ cmake \
   -DGAUDI_USE_CPPUNIT:BOOL=OFF \
   -DGAUDI_USE_DOXYGEN:BOOL=OFF \
   -DBUILD_TESTING:BOOL=OFF \
-  -DGAUDI_USE_XERCESC:BOOL=OFF \
+  -DGAUDI_USE_XERCESC:BOOL=ON \
   -DGAUDI_ENABLE_GAUDIALG:BOOL=ON \
   -DGAUDI_ENABLE_GAUDIPARTPROP:BOOL=ON \
   -S . -B build
 
 cmake --build build
-
-### !! do not understand why?
-mv  build/Gaudi.confdb2.dir  build/Gaudi.confdb2
-
 cmake --install build
-patch /usr/local/python/Gaudi/__init__.py /sources/Chapter10/gaudi_py.patch
 
 cd ..

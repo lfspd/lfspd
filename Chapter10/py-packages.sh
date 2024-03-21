@@ -9,6 +9,7 @@ pip install setuptools
 pip install six
 pip install pytest
 pip install tabulate
-pip install jupyter 
+#pip install jupyter 
 pip install metakernel
 pip install virtualenv
+pip install readline
