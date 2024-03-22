@@ -5,7 +5,7 @@ umask 022
 LFS=/mnt/LFS
 LC_ALL=POSIX
 LFS_TGT=$(uname -m)-lfs-linux-gnu
-PATH=/usr/bin:/usr/sbin:/usr/local/bin
+PATH=/usr/bin:/usr/sbin:/usr/local/bin${PATH:+:${PATH}}
 if [ ! -L /bin ]; then PATH=/bin:$PATH; fi
 PATH=$LFS/tools/bin:$PATH
 CONFIG_SITE=$LFS/usr/share/config.site

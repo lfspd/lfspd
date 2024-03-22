@@ -15,7 +15,6 @@ rm -rf /root/.*
 mkdir /sav
 cd /sources
 cp -rf *.sh Dockerfile .bash* md5sums wget-list Chapter* /sav/
-cp .bash* setenv.sh /root/
 cd ..
 rm -rf /sources/*
 cp -rf /sav/* /sources/
