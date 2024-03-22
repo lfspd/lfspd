@@ -1,9 +1,20 @@
-##  How to run precompiled LFSPD distro on a local computer   
+## Run LFSPD docker
 
-### Zero step 
+#### Get lfspd docker image from docker hub
+<code>docker pull xtovo/lfspd</code>
 
-Download [lfspd.10.tar.gz](https://ln5.sync.com/dl/4f64919e0/mqi5sz3e-ipaqzf5t-xwim9pte-xdq87wkt) to [Distros](Distros) directory
+#### Run lfspd docker
+<code>docker run -v /dir/to/output/data:/root/tmp -it xtovo/lfspd /bin/bash</code>
 
+## Run LFSPD distro on a local computer 
+
+<code>docker pull xtovo/lfspd</code>
+
+<code>git clone https://git.jinr.ru/x2v0/lfspd</code>
+
+<code>cd lfspd</code>
+
+<code>docker save -o Distros/lfspd.10.tar xtovo/lfspd</code>
 
 ### For Linux users
 
@@ -33,11 +44,11 @@ You can edit your C++, python projects in <code>LFSPD</code> located in <b>$HOME
 
 - Activate [Windows Subsystem for Linux (WSL2)](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux)  <code>PS>[WSL_Install.ps1](WSL_Install.ps1)</code>
 
-- Import <i>LFSPD</i> distribution <code>PS>wsl --import lfspd 'InstallLocation' 'path to lfspd.10.tar.gz'</code>
+- Import <i>LFSPD</i> distribution <code>PS>wsl --import lfspd 'InstallLocation' 'path to lfspd.10.tar'</code>
 
 In my case:
 
-<code>PS>wsl --import <b>lfspd</b>  D:\x2v0  D:\x2v0\wrk\lfspd\Distros\lfspd.10.tar.gz</code>
+<code>PS>wsl --import <b>lfspd</b>  D:\x2v0  D:\x2v0\wrk\lfspd\Distros\lfspd.10.tar</code>
 
 <b>lfspd</b> distribution is created
 

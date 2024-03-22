@@ -21,7 +21,7 @@ if [ ! -d "$chroot" ]; then
 fi
 
 if [ ! -d "$chroot/sources" ]; then
-  tar -xzf Distros/lfspd.10.tar.gz -C $chroot
+  tar -xf Distros/lfspd.10.tar -C $chroot
 fi
 
 sudo ./preparechroot.sh $chroot
