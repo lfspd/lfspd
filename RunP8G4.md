@@ -39,7 +39,20 @@ pythia.py\
 read_podio_input.py\
 </code>
 
-#### Run each python script. For example:
+#### Try to run each python script. For example:
 
-<code>k4run geant_fastsim.py<code>
+<code>k4run geant_fullsim.py</code>
 
+You will see a lot of info messages, but at the end the file <code><b>out_geant_fullsim.root</b></code> is created.
+
+#### Save it on the <code><b>host system</b></code>
+
+<code>cp geant_fullsim.root /root/tmp</code>
+
+#### Exiting docker prompt will still have the docker container available. One can re-enter the same container by
+
+<code>
+docker start `docker ps -q -l`
+
+docker attach `docker ps -q -l`
+</code>

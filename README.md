@@ -21,6 +21,8 @@ Based on the Linux From Scratch project https://www.linuxfromscratch.org/
 
 <b>[RunDistro.md](RunDistro.md)</b> - how to run the distro on a local machine
 
+<b>[RunP8G4.md](RunP8G4.md)</b> - how to run <code>Pythia8</code> generation with full <code>Geant4</code> simulation in <code><b>lfspd docker container</b></code>
+
 <b>[Readme/packages.md](Readme/packages.md)</b> - packages included in the distro and their descriptions
 
 <b>[Readme](Readme)</b> - directory with detailed info
