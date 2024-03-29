@@ -15,17 +15,23 @@ then
   chroot=$1
 fi
 
-if [ ! -d "$chroot" ]; then
+if [ ! -d "${chroot}" ]; then
   echo "$chroot doesn't exist - create it!"
   mkdir -p "$chroot"
 fi
 
 if [ ! -d "$chroot/sources" ]; then
-  tar -xf Distros/lfspd.10.tar -C $chroot
+  tar -xf Distros/lfspd.10.tar -C ${chroot}
 fi
 
-sudo ./preparechroot.sh $chroot
-sudo ./chroot.sh $chroot
+cd ${chroot}
+chroot=$(find . -mindepth 1 -maxdepth 1 -type d)
+cd ${chroot}
+tar -xf layer.tar
+rm -f layer.tar
+
+sudo ${lfspd}/preparechroot.sh ${chroot}
+sudo ${lfspd}/chroot.sh ${chroot}
 
 
 

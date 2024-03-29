@@ -10,6 +10,8 @@
 
 file=lfspd.10.tar.gz
 
+cp /sources/.bash* /sources/setenv.sh /root/
+
 mkdir -p /Distro
 cd /Distro
 tar -czf ${file} {/bin,/boot,/etc,/home,/lib,/lib64,/media,/opt,/root,/run,/sbin,/sources,/srv,/tmp,/usr,/var}
