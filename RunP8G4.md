@@ -6,7 +6,7 @@
 
 #### Run <code>lfspd</code> container
 
-<code>docker run -it -v $HOME/tmp:/root/tmp --user root --workdir /root lfspd /bin/bash</code>
+<code>docker run -it -v $HOME/tmp:/root/tmp --user root --workdir /root xtovo/lfspd /bin/bash</code>
 
 #### Clone FCCSW repository
 
