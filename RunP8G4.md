@@ -75,4 +75,4 @@ docker attach \`docker ps -q -l\`</code>
 <code>geant_fullsim_fccee_\*.py
 geant_fullsim_fcchh_\*.py</code>
 
-#### The detailed explanation of examples can be found here  https://fccsw.web.cern.ch/fccsw/tutorials/
+#### Some explanation of examples can be found here  https://fccsw.web.cern.ch/fccsw/tutorials/
