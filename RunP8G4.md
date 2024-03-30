@@ -43,7 +43,7 @@
 
 After a lot of info messages, the file <code><b>out_geant_fullsim.root</b></code> created.
 
-#### One can run it with <b>gdb</b> debugger (type <b>continue</b> and <b>Ctrl-C</b> to interrupt)
+#### One can run it with <b>gdb</b> debugger (type <code>"continue"</code> and <code>"Ctrl-C"</code> to interrupt)
 
 <code>k4run geant_fullsim.py --gdb</code>
 
