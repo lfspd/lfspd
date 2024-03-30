@@ -47,7 +47,7 @@ After a lot of info messages, the file <code><b>out_geant_fullsim.root</b></code
 
 <code>cp out_geant_fullsim.root /root/tmp</code> 
 
-<b>/root/tmp</b> corresponds to <b>$HOME/tmp</b> on host system
+<b>/root/tmp</b> corresponds to <b>$HOME/tmp</b> on the host system
 
 #### Exiting docker prompt will still have the docker container available. One can re-enter the same container by
 
@@ -71,3 +71,41 @@ docker attach `docker ps -q -l`</code>
 <code>geant_fullsim_fccee_\*.py
 geant_fullsim_fcchh_\*.py</code>
 
+#### Detailed explanations of examples can be found here  https://fccsw.web.cern.ch/fccsw/tutorials/
+
+:lips:
+
+
+## Simple alerts
+
+> [!NOTE]
+> This is a note.
+
+> [!TIP]
+> This is a tip. (Supported since 14 Nov 2023)
+
+> [!IMPORTANT]
+> Crutial information comes here.
+
+> [!CAUTION]
+> Negative potential consequences of an action. (Supported since 14 Nov 2023)
+
+> [!WARNING]
+> Critical content comes here.
+
+> [!NOTE]\
+> This is a note. (hard line break `\`)
+
+> [!NOTE]
+> This is a note.
+> multiple lines with a soft line break
+
+> [!NOTE]
+> This is a note.\
+> multiple lines with a hard line break (`\`)
+
+> [!NOTE] No character is allowed except a line break.
+> This is a note.
+
+> [!NOTE] No character is allowed except a line break.\
+> This is a note.
