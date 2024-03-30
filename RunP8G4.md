@@ -41,9 +41,13 @@
 #### Try to run each python script. For example:
 <code>k4run geant_fullsim.py</code>
 
-After a lot of info messages, the file <code><b>out_geant_fullsim.root</b></code> is created.
+After a lot of info messages, the file <code><b>out_geant_fullsim.root</b></code> created.
 
-#### Save it on the <code><b>host system</b></code>
+#### One can run it with <b>gdb</b> debugger
+
+<code>k4run geant_fullsim.py --gdb</code>
+
+#### Save the file on the <code><b>host system</b></code>
 
 <code>cp out_geant_fullsim.root /root/tmp</code> 
 
@@ -51,8 +55,8 @@ After a lot of info messages, the file <code><b>out_geant_fullsim.root</b></code
 
 #### Exiting docker prompt will still have the docker container available. One can re-enter the same container by
 
-<code>docker start `docker ps -q -l`
-docker attach `docker ps -q -l`</code>
+<code>docker start \`docker ps -q -l\`
+docker attach \`docker ps -q -l\`</code>
 
 
 #### The list of working examples:
@@ -71,4 +75,4 @@ docker attach `docker ps -q -l`</code>
 <code>geant_fullsim_fccee_\*.py
 geant_fullsim_fcchh_\*.py</code>
 
-#### Detailed explanations of examples can be found here  https://fccsw.web.cern.ch/fccsw/tutorials/
+#### The detailed explanation of examples can be found here  https://fccsw.web.cern.ch/fccsw/tutorials/
