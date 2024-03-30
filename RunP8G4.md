@@ -36,7 +36,7 @@
 - material_scan.py
 - particle_gun.py
 - pythia.py
-- read_podio_input.p
+- read_podio_input.py
 
 #### Try to run each python script. For example:
 <code>k4run geant_fullsim.py</code>
