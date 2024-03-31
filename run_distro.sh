@@ -20,15 +20,11 @@ if [ ! -d "${chroot}" ]; then
   mkdir -p "$chroot"
 fi
 
-if [ ! -d "$chroot/sources" ]; then
-  tar -xf Distros/lfspd.10.tar -C ${chroot}
+if [ ! -f "./Distros/lfspd.10.tar" ]; then
+  ./dock2tar.sh
 fi
 
-cd ${chroot}
-chroot=$(find . -mindepth 1 -maxdepth 1 -type d)
-cd ${chroot}
-tar -xf layer.tar
-rm -f layer.tar
+tar -xf Distros/lfspd.10.tar -C ${chroot}
 
 sudo ${lfspd}/preparechroot.sh ${chroot}
 sudo ${lfspd}/chroot.sh ${chroot}
