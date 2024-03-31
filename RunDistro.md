@@ -8,13 +8,9 @@
 
 ## Run LFSPD distro on a local computer 
 
-<code>docker pull xtovo/lfspd</code>
+#### Create ./Distros/lfspd.tar from xtovo/lfspd docker image
+<code>./dock2tar.sh</code>
 
-<code>git clone https://git.jinr.ru/x2v0/lfspd</code>
-
-<code>cd lfspd</code>
-
-<code>docker save -o Distros/lfspd.10.tar xtovo/lfspd</code>
 
 ### For Linux users
 
