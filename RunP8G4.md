@@ -70,7 +70,7 @@ docker attach \`docker ps -q -l\`</code>
 - material_scan.py
 - particle_gun.py
 
-#### All examples of full simulation of FCC-hh, FCC-ee - failed  
+#### All examples of full simulation of FCC-hh, FCC-ee - failed because of missing detectors 
 
 <code>geant_fullsim_fccee_\*.py
 geant_fullsim_fcchh_\*.py</code>
