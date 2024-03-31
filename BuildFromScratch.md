@@ -1,7 +1,7 @@
 ## Building from scratch under Ubuntus (18.04 - 22.04) and Debian
 
-#### Disclaimer. There is no guarantee to built successfully because of changes in packages. 
-Once a week I check consistency of build procedure
+#### Disclaimer. There is no guarantee to build it successfully because of changes in packages. 
+<code>Once a week I check consistency of build procedure</code>
 
 This procedure describes how to build distro by compiling all packages from source  
 This is done quite rarely, about once a year (each time check/correct <code><b>wget-list, md5sums</b></code> files for downloads)
