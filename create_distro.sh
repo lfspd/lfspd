@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Creares file lfspd.10.tar.gz with distribution image in $LFS/dist directory
+# Creates file lfspd.10.tar.gz with distribution image in $LFS/Distro directory
 
 # 1. Enter "chroot jail" by sudo ./chroot.sh $LFS
 # 2. Run /sources/create_distros.sh
@@ -16,5 +16,5 @@ mkdir -p /Distro
 cd /Distro
 tar -czf ${file} {/bin,/boot,/etc,/home,/lib,/lib64,/media,/opt,/root,/run,/sbin,/sources,/srv,/tmp,/usr,/var}
 
-#docker import /Distro/${file} lfspd
+#docker import ${file} lfspd
 
