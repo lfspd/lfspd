@@ -94,6 +94,6 @@ do
         /bin/bash --login +h -c "$script"
 done
 
-./chroot.sh $LFS
-cp /sources/.bash* /sources/setenv.sh /root/
-cd ~/
+cp /sources/create_distro.sh /
+cd /
+

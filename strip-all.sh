@@ -14,7 +14,7 @@ rm -rf /root/.*
 # save some files, dirs from /sources/ 
 mkdir /sav
 cd /sources
-cp -rf *.sh Dockerfile .bash* md5sums wget-list Chapter* /sav/
+cp -rf *.sh .bash* md5sums wget-list Chapter* /sav/
 cd ..
 rm -rf /sources/*
 cp -rf /sav/* /sources/
