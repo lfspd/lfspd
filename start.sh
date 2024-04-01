@@ -93,7 +93,3 @@ do
         TESTERUID=$UID \
         /bin/bash --login +h -c "$script"
 done
-
-cp /sources/create_distro.sh /
-cd /
-
