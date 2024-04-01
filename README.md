@@ -27,8 +27,6 @@ Based on the Linux From Scratch project https://www.linuxfromscratch.org/
 
 <b>[Readme](Readme)</b> - directory with detailed info
 
-<b>[Supposed cycle of work for the end user (physicist)](UserDevCycle.md)
-
 <b>[TODO](TODO.md)</b>
 
 It contains <b> > 170</b> packages with the size of the distribution <b>~4.2 Gb </b>.</br>
