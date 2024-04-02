@@ -1,10 +1,8 @@
 #!/bin/bash
 
-# Creares file lfspd.10.tar.gz with distribution image in $LFS/dist directory
+# Creares file lfspd.10.tar.gz with distribution image in $LFS/Distro directory
 
-# 1. Enter "chroot jail" by sudo ./chroot.sh $LFS
-# 2. Run /sources/create_distros.sh
-
+# When building from scraatch is finished run /sources/create_distros.sh
 
 /sources/strip-all.sh
 

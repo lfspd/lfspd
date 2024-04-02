@@ -17,11 +17,11 @@ The main features of the distro:
 
 Based on the Linux From Scratch project https://www.linuxfromscratch.org/
 
-<b>[BuildFromScratch.md](BuildFromScratch.md)</b> - how to build the distro from scratch
+<b>[BuildFromScratch.md](Readme/BuildFromScratch.md)</b> - how to build the distro from scratch
 
-<b>[RunDistro.md](RunDistro.md)</b> - how to run the distro on a local machine
+<b>[RunDistro.md](Readme/RunDistro.md)</b> - how to run the distro on a local machine
 
-<b>[RunP8G4.md](RunP8G4.md)</b> - how to run <code>Pythia8</code> generation with full <code>Geant4</code> simulation in <code><b>lfspd docker container</b></code>
+<b>[RunP8G4.md](Readme/RunP8G4.md)</b> - how to run <code>Pythia8</code> generation with full <code>Geant4</code> simulation in <code><b>lfspd docker container</b></code>
 
 <b>[Readme/packages.md](Readme/packages.md)</b> - packages included in the distro and their descriptions
 
