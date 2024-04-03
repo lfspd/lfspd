@@ -1,5 +1,5 @@
 The list is not full - be apdated
-
+<b>KFParticle</b> - <i>package for reconstruction and selection of the short-lived particles using the Kalman filter</i><br>
 <b>k4FWCore</b> - <i>Gaudi adapted Basic I/O components including ROOT I/O</i><br>
 <b>k4Gen</b> - <i>Gaudi adapted Generators (Pythia8) and Particle Guns</i><br>
 <b>k4SimGeant4</b> - <i>Gaudi adapted Geant4 Full Simulation</i><br>
