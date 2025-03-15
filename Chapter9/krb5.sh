@@ -1,4 +1,3 @@
-#!/bin/bash
 
 PKG="krb5"
 PKG_VERSION="1.21"

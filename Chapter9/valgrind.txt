@@ -16,9 +16,9 @@ MD5="b8b89b327732c12191306c3d31cfd4b1"
 sed -i 's|/doc/valgrind||' docs/Makefile.in &&
 
 ./configure --prefix=/usr/local \
-            --datadir=/usr/local/share/doc/${PKG_FULL} &&
-make -j12 &&
+            --datadir=/usr/local/share/doc/${PKG_FULL}
+make
 make install
 
 xEOFx
-) > tmp
+) > ${PKG}.sh

@@ -22,3 +22,4 @@ URL="https://download.open-mpi.org/release/${PKG}/v${PKG_VERSION}/${PKG_FILE}"
 make
 make install
 
+#qqq

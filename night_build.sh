@@ -2,6 +2,8 @@
 
 # this script rebuild lfspd distro from scratch on dedicated "machine" (Debian)
 # executed every day at 0.0  
+
+start=$(date)
  
 clear
 
@@ -16,4 +18,9 @@ git pull -p
 ./start.sh
 
 echo "night building finished !!!"
-date
+stop=$(date)
+
+echo "start = ${start}"
+echo "stop = ${stop}"
+
+

@@ -19,9 +19,9 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr/local \
       -DENABLE_STATIC=FALSE             \
       -DCMAKE_INSTALL_DOCDIR=/usr/local/share/doc/${PKG_FULL} \
       -DCMAKE_INSTALL_DEFAULT_LIBDIR=lib  \
-      .. &&
-make -j12 &&
+      ..
+make
 make install
 
 xEOFx
-) > tmp
+) > ${PKG}.sh

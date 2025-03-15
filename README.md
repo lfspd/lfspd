@@ -1,9 +1,12 @@
-## Linux From Scratch PD
+## Linux From Scratch PD [(russian)](README.ru.md)
+DeepSeek processed \*\*\*.ds.\*\*
 
-This is the set of Linux packages for docker container.
+This is a set of Linux packages and scientific software for docker container. 
+Supposed that hundreds of thousands of such dockers/jobs will run on the distributed network cluster.
+It also can run locally as linux distro in chroot/proot jail or WSL2.
 
 The main features of the distro:
-- supposed that applications will run in docker container in batch mode
+- all applications will run in docker container in batch mode
    
   Distro does not contain X11, GUIs, mans, locales, tests, tutorials etc.
   
@@ -30,4 +33,4 @@ Based on the Linux From Scratch project https://www.linuxfromscratch.org/
 <b>[TODO](TODO.md)</b>
 
 It contains <b> > 170</b> packages with the size of the distribution <b>~4.2 Gb </b>.</br>
-That includes <b>2.2 Gb </b> of Geant4 data. 
+That includes <b>2.2 Gb </b> of Geant4 data located on docker volumes. 

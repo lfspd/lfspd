@@ -26,4 +26,4 @@ make install
 popd
 
 xEOFx
-) > tmp
+) > ${PKG}.sh

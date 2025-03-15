@@ -16,9 +16,9 @@ MD5="d08c5f9eee6350fffc239e5993d92779"
 mmkdir -p libtiff-build &&
 cd        libtiff-build &&
 
-cmake -DCMAKE_INSTALL_PREFIX=/usr/local -G Ninja .. &&
-ninja -j12 &&
+cmake -DCMAKE_INSTALL_PREFIX=/usr/local -G Ninja ..
+ninja
 ninja install
 
 xEOFx
-) > tmp
+) > ${PKG}.sh
