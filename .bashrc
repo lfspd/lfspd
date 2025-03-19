@@ -42,6 +42,11 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# Source .bash_proxy if it exists
+if [ -f ~/.bash_proxy ]; then
+    . ~/.bash_proxy
+fi
+
 # Add user's private bin to PATH if it exists
 if [ -d "$HOME/.local/bin" ]; then
     PATH="$HOME/.local/bin:$PATH"
